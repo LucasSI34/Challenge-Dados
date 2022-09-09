@@ -18,7 +18,7 @@ Após a importação dos dados, as tabelas foram tratadas por meio do MySQL Work
 
 Organização deste repositório
 
-├── ETL_SQL.sql       -> contém as interações realizadas no banco
-├── DUMP              -> contém os dados disponibilizado pela Alura CASH
-├── dados_juntos.csv  -> contém a tabela completa que foi exportada como CSV
-├── notebbok.ipynb    -> contém o notebook que irei fazer um modelo de ML
+* ├── ETL_SQL.sql       -> contém as interações realizadas no banco
+* ├── DUMP              -> contém os dados disponibilizado pela Alura CASH
+* ├── dados_juntos.csv  -> contém a tabela completa que foi exportada como CSV
+* ├── notebbok.ipynb    -> contém o notebook que irei fazer um modelo de ML
