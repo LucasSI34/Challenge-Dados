@@ -93,6 +93,7 @@ DELETE FROM ids WHERE pessoa_id = '';
 -- Criando uma tabela unindo os dados
 CREATE TABLE dados_juntos AS SELECT 
 
+i.pessoa_id,
 dm.pessoa_idade,
 dm.salario_ano,
 dm.propriedade_sit,
@@ -111,6 +112,7 @@ FROM ids i
 JOIN dados_mutuarios dm ON dm.pessoa_id = i.pessoa_id 
 JOIN emprestimos e ON e.emprestimo_id = i.emprestimo_id 
 join historicos_banco hb ON hb.hst_id = i.hst_id;
+
 
 -- Exportei os dados como CSV através com auxílio do assistente virtual do MySQL Workbench
 
