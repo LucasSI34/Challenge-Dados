@@ -13,7 +13,12 @@ Para a primeira semana do projeto, a Alura Ca$h disponibilizou um arquivo DUMP c
 Após a importação dos dados, as tabelas foram tratadas por meio do MySQL Workbench de acordo com as informações contidas nas colunas. Após o tratamento dos dados, as tabelas foram unidas em uma tabela global contendo as informações de empréstimos e clientes.
 
 
-### Semana 2 Aprendendo com os dados (EM CONSTRUÇÃO) 
+### Semana 2 Aprendendo com os dados
+Na semana 2 buscamos construir um modelo de ML que pudesse predizer de acordo com os dados bancários de cada cliente, se essa pessoa pode ou não se tornar inadimplente. Dessa vez, utilizamos o Python no ambiente do Jupyter notebook para desenvolver nosso modelo.
+
+Primeiramente, coletamos os dados da semana 1 e iniciamos uma análise focada no tratamento de dados para serem inseridos em um modelo de ML. Desse modo, removemos valores nulos e outliers presentes nos dados, bem como aplicamos o balanceamento e normalização para tratar o conjunto de dados.
+
+
 ### Semana 3 e 4 - Analisando métricas (EM CONSTRUÇÃO)
 
 Organização deste repositório
